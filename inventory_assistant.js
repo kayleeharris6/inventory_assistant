@@ -13,7 +13,7 @@ let estimatedreordercost = reorderquantity * unitcost;
 let reordernow = currentstock <= reorderlevel || weeksofcover < supplierleadtimeweeks;
 
 console.log("cookie");
-console.log(`weeksofcover: ${weeksofcover.toFixed(2)} weeks`);
-console.log(`reordernow: ${reordernow}`);
+console.log(`weeks of cover: ${weeksofcover.toFixed(2)} weeks`);
+console.log(`reorder now: ${reordernow}`);
 console.log(`recommended reorder quantity: ${reorderquantity} units`);
 console.log(`estimated reorder cost: $${estimatedreordercost}`);
